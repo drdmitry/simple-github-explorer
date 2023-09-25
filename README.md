@@ -1,28 +1,43 @@
-# Create T3 App
+# Simple GitHub Explorer
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Test task Simple GitHub Explorer
 
-## What's next? How do I make an app with this?
+## Stack
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+- Next.js - v13.5
+- React.js - v18.2
+- TypeScript - v5.1
+- Tailwind CSS - v3.3
+- Zustand - v4.4
+- Storybook - v7.4
+- Jest - v29.7
+- Testing Library - v14.0
+- Faker - v8.1
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+# Run
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+## Storybook
 
-## Learn More
+```bash
+npm run storybook
+```
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+Storybook internally using mock API with 2 seconds delay.
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## Development mode
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+```bash
+npm run dev
+```
 
-## How do I deploy this?
+## Tests
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+```bash
+npm run test
+```
+
+### Tests coverage
+
+```bash
+npm run test:coverage
+```
